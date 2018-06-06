@@ -1,0 +1,15 @@
+{
+  "name": "abstract-shop_node-js",
+  "version": "0.0.0",
+  "description": "AbstractShop_NodeJS",
+  "main": "app.js",
+  "author": {
+    "name": "elvis"
+  },
+  "dependencies": {
+    "generate-password": "^1.4.0",
+    "hapi": "^16.6.2",
+    "nodemailer": "^4.6.4",
+    "tedious": "^2.3.1"
+  }
+}
