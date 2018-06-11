@@ -2,11 +2,12 @@
 'use strict';
 var config = {
     userName: 'elvisnasic',
-    password: 'elvisnasic',
-    server: 'localhost',
+    password: 'Esamedistato2018',
+    server: 'elvisnasic.database.windows.net',
     options:
         {
             database: 'AbstractShop'
+            ,encrypt=true;
         }
 }
 
@@ -47,7 +48,7 @@ var Connection = require('tedious').Connection;
 var Request = require('tedious').Request;
 var TYPES = require('tedious').TYPES;
 const server = new Hapi.Server();
-server.connection({ port: 3000, host: 'https://abstractshop.azurewebsites.net' });
+server.connection({ port: 8000, host: 'https://abstractshop.azurewebsites.net' });
 
 //Login relativo ad un utente
 server.route({
