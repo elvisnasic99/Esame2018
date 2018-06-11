@@ -47,7 +47,7 @@ var Connection = require('tedious').Connection;
 var Request = require('tedious').Request;
 var TYPES = require('tedious').TYPES;
 const server = new Hapi.Server();
-server.connection({ port: 3000, host: 'localhost' });
+server.connection({ port: 3000, host: 'https://abstractshop.azurewebsites.net' });
 
 //Login relativo ad un utente
 server.route({
