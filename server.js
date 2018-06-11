@@ -47,7 +47,7 @@ var Connection = require('tedious').Connection;
 var Request = require('tedious').Request;
 var TYPES = require('tedious').TYPES;
 const server = new Hapi.Server();
-server.connection({ port: 3000, host: '192.168.1.195' });
+server.connection({ port: 3000, host: 'localhost' });
 
 //Login relativo ad un utente
 server.route({
