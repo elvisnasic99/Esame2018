@@ -1,12 +1,12 @@
 
 'use strict';
 var config = {
-    userName: 'elvisnasic',
-    password: 'Esamedistato2018',
-    server: 'elvisnasic.database.windows.net',
+    userName: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    server: process.env.DB_SERVER,
     options:
         {
-            database: 'AbstractShop'
+            database: process.env.DB_NAME
             ,encrypt=true;
         }
 }
