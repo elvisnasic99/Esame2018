@@ -7,7 +7,7 @@ var config = {
     options:
         {
             database: process.env.DB_NAME
-            ,encrypt=true;
+            ,encrypt=true
         }
 }
 
