@@ -6,8 +6,8 @@ var config = {
     server: process.env.DB_SERVER,
     options:
         {
-            database: process.env.DB_NAME
-            ,encrypt=true
+            database: process.env.DB_NAME,
+            encrypt: true
         }
 }
 
